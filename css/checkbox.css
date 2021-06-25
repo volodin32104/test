@@ -1,0 +1,47 @@
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  input[type=checkbox] {
+    --active: #275EFE;
+    --active-inner: #fff;
+    --focus: 2px rgba(39, 94, 254, .25);
+    --border: #BBC1E1;
+    --border-hover: #275EFE;
+    --background: #fff;
+    --disabled: #F6F8FF;
+    --disabled-inner: #E1E6F9;
+  }
+}
+input[type=checkbox] {
+  --active: #275EFE;
+  --border: #BBC1E1;
+  border: 1px solid var(--bc, var(--border));
+}
+
+input[type=checkbox]:checked {
+  --b: var(--active);
+  --bc: var(--active);
+}
+
+input[type=checkbox]:not(:checked):not(:disabled):hover {
+  --bc: var(--border-hover);
+}
+
+input[type=checkbox] {
+  --focus: 2px rgba(39, 94, 254, .25);
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+input[type=checkbox]:focus {
+  box-shadow: 0 0 0 var(--focus);
+}
+
+input[type=checkbox] + label {
+  display: inline-block;
+  vertical-align: top;
+}
+
+input[type=checkbox]:disabled + label {
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=checkbox.css.map */
