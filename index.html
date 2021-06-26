@@ -43,33 +43,12 @@
             </div>
         </div>
     </nav>
-   <!--&lt;!&ndash;&lt;!&ndash; <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand header__logo" href="#"><img src="img/logo.svg" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup2">
-                <div class="navbar-nav">
-                    <a class="nav-link header_link" href="#">Главная</a>
-                    <a class="nav-link header_link" href="#">Каталог недвижимости</a>
-                    <a class="nav-link header_link" href="#">Блог</a>
-                </div>
-                <div class="contacts d-flex">
-                    <a class="nav-link nav_number" href="#">+7 (812) 501-1000</a>
-                    <a class="nav-link" href="#"><img src="img/telegram.svg" alt=""></a>
-                    <a class="nav-link" href="#"><img src="img/whatsup.svg" alt=""></a>
-                    <button type="button" class="btn btn_contact">Заказать звонок</button>
-                </div>
-            </div>
-        </div>
-    nav>&ndash;&gt;&ndash;&gt;-->
 </header>
 <section class="header-content">
     <div class="container">
-        <div class="row header-content-text">
-            <div class="col-12 header-content-text__text">
-                Каталог квартир в<br>Хамовниках
+        <div class="row">
+            <div class="col-12 header-text">
+                <h1 class="header-text_h1">Каталог квартир<br>в Хамовниках</h1>
             </div>
         </div>
     </div>
@@ -83,7 +62,7 @@
                         <div class="view_block">
                             <p class="menu-block-title">Отображение</p>
                             <button type="button" class="btn menu_btn"><i class="fas fa-list-ul"></i> Список</button>
-                            <button type="button" class="btn menu_btn"><img src="img/map.svg" alt=""> Карта</button>
+                            <button type="button" class="btn menu_btn"><i class="far fa-map"></i> Карта</button>
                         </div>
                         <hr>
                         <div class="price_block">
@@ -98,6 +77,7 @@
                                     <button id='id662' class="range__button_2"></button>
                                     <div class="range_input_bar">
                                         <input id='id66i1' class='range_inpt1' type='number' min='0' max='120000000'>
+                                        <div class="input_empty-space"></div>
                                         <input id='id66i2' class='range_inpt2' type='number' min='0' max='120000000'>
                                     </div>
 
@@ -217,36 +197,6 @@
                             </ul>
                             <div class="show_more"><a href="#" class="show_more_text"> Показать ещё</a></div>
                         </div>
-                        <!-- <div class="metro-station"> <p>Близость к метро</p>
-                             <label class="form-check-label menu_check">
-                                 <input class="form-check-input" type="checkbox" value="ChekBox"> Аэропорт
-                                 <img src="img/count.png" alt="">
-                             </label>
-                             <label class="form-check-label menu_check">
-                                 <input class="form-check-input" type="checkbox" value="ChekBox"> Авиомоторная
-                                 <img src="img/count.png" alt="">
-                             </label>
-                             <label class="form-check-label menu_check">
-                                 <input class="form-check-input" type="checkbox" value="ChekBox"> Домодедовская
-                                 <img src="img/count.png" alt="">
-                             </label>
-                             <label class="form-check-label menu_check">
-                                 <input class="form-check-input" type="checkbox" value="ChekBox"> Таганская
-                                 <img src="img/count.png" alt="">
-                             </label>
-                             <label class="form-check-label menu_check">
-                                 <input class="form-check-input" type="checkbox" value="ChekBox"> Маяковская
-                                 <img src="img/count.png" alt="">
-                             </label>
-                             <label class="form-check-label menu_check">
-                                 <input class="form-check-input" type="checkbox" value="ChekBox"> Чкаловская
-                                 <img src="img/count.png" alt="">
-                             </label>
-                             <label class="form-check-label menu_check">
-                                 <input class="form-check-input" type="checkbox" value="ChekBox"> Динамо
-                                 <span class="menu_check_counter"><img src="img/count.png" alt=""></span>
-                             </label>
--->
                         <hr>
                         <button type="button" class="btn menu_btn btn_filter"> Сбросить фильтры</button>
 
@@ -254,7 +204,6 @@
                     </div>
                 </div>
             </div>
-
             <div class=" main_content col-9">
                 <div class="row row__main__content">
                     <div class="col-12">
@@ -267,7 +216,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-8 pbc-12">
+                    <div class="col-8 pbc-16">
                         <div class="search">
                             <form class="d-flex">
                                 <input class="form-control me-2 form__search" type="search" placeholder="Комплекс, улица, район или метро" aria-label="Search">
@@ -277,7 +226,7 @@
                     <div class="col-4">
                         <div class="dropdown">
                             <a class="btn btn-secondary dropdown-toggle main__dropdown " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                По алфавиту А-Я
+                               <span>По алфавиту</span><span class="arial">А-Я</span>
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -287,7 +236,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 ptc-12">
+                    <div class="ptp-24 col-12">
                         <div class="card mb-3 card__shadow" style="max-width: 1380px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
@@ -346,7 +295,7 @@
                             </div>
                         </div>
 
-                    <div class="col-12 ptc-12">
+                    <div class="col-12 ">
                         <div class="card mb-3 card__shadow" style="max-width: 1380px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
@@ -401,7 +350,7 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="col-12 ptc-12">
+                    <div class="col-12 ">
                         <div class="card mb-3 card__shadow" style="max-width: 1380px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
@@ -457,7 +406,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 ptc-12">
+                    <div class="col-12 ">
                         <div class="card mb-3 card__shadow" style="max-width: 1380px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
@@ -517,7 +466,7 @@
                             </div>
                         </div>
 
-                    <div class="col-12 ptc-12">
+                    <div class="col-12 ">
                         <div class="card mb-3 card__shadow" style="max-width: 1380px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
@@ -577,7 +526,7 @@
                             </div>
                         </div>
 
-                    <div class="col-12 ptc-12">
+                    <div class="col-12 ">
                         <div class="card mb-3 card__shadow" style="max-width: 1380px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
@@ -637,7 +586,7 @@
                             </div>
                         </div>
 
-                    <div class="col-12 ptc-12">
+                    <div class="col-12 ">
                         <div class="card mb-3 card__shadow" style="max-width: 1380px;">
                             <div class="row g-0">
                                 <div class="col-md-5">
@@ -853,40 +802,6 @@
             </div>
         </div>
     </div>
-   <!-- <div class="links">
-        <div class="links__wrap wrap">
-        <div class="links__element">
-            <p class="links__title">Комплексы</p>
-            <p><a href="#" class="links__text" >Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-        </div>
-        <div class="links__element">
-            <p><a href="#" class="links__text" >Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-        </div>
-        <div class="links__element">
-            <p class="links__title">Комплексы</p>
-            <p><a href="#" class="links__text" >Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-        </div>
-        <div class="links__element">
-            <p><a href="#" class="links__text" >Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-            <p><a href="#" class="links__text">Lorem ipsum</a></p>
-        </div>
-    </div>
-    </div>-->
 
 </footer>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

@@ -1,0 +1,37 @@
+
+.btn_contact {
+  height: 40px;
+  color: #FC620F;
+  border-radius: 20px;
+  border: 2px solid rgba(252, 98, 15, 0.32);
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  &:hover {
+    color: #f88e61;
+  }
+}
+.nav_call_item {
+  padding-left: 38px;
+}
+.nav-item_telegram {
+  padding-right: 28px;
+}
+.nav_number {
+  padding-right: 38px !important;
+  font-family: Tenor Sans, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: black;
+  text-decoration: none;
+}
+.header_item {
+}
+.header__logo {
+  width: 172px;
+  height: 48px;
+}

@@ -1,5 +1,7 @@
 setTimeout(init2slider('id66', 'id66b', 'id661', 'id662', 'id66i1', 'id66i2'), 0);
+/*
 setTimeout(init2slider('id77', 'id77b', 'id771', 'id772', 'id77i1', 'id77i2'), 0);
+*/
 
 function init2slider(idX, btwX, btn1X, btn2X, input1, input2) {
     var slider = document.getElementById(idX);

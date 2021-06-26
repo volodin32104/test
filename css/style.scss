@@ -2,61 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 @import "range_slider";
 @import "checkbox";
+@import "footer";
+@import "header";
+@import "main-menu";
+
 .container {
   max-width: 1440px;
   padding: 24px;
 }
-.btn_contact {
-  height: 40px;
-  color: #FC620F;
-  border-radius: 20px;
-  border: 2px solid rgba(252, 98, 15, 0.32);
-  font-family: Inter, sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-  &:hover {
-    color: #f88e61;
-  }
- }
-.nav_call_item {
-  padding-left: 38px;
-}
-.nav-item_telegram {
-  padding-right: 28px;
-}
-.nav_number {
-  padding-right: 38px !important;
-  font-family: Tenor Sans, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: 0.2px;
-  color: black;
-  text-decoration: none;
-}
-.header_item {
-}
-/*.header__link {
-  float: left;
-  position: relative;
-}
-.header__link::after {
-    position: absolute;
-    content: "";
-    height: 2px;
-    background: #B28672;
-    bottom: -10px;
-    width: 17px;*/
-/*}*/
-.header__logo {
-  width: 172px;
-  height: 48px;
-}
-.header-content-text {
+/*.header-content-text {
   min-height: 298px;
-  .header-content-text__text {
+!*  .header-content-text__text {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -67,12 +23,26 @@
     text-align: center;
     letter-spacing: 0.5px;
     color: #151513;
+  }*!
+}*/
+.header-content {
+  padding-top: 48px;
+  padding-bottom: 82px;
+  .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    .header-text_h1 {
+    font-family: Tenor Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    }
   }
 }
-.footer {
-  margin: 90px 142px 0px 142px;
-}
-
 .links {
   background-color: #ffffff;
   padding: 24px 0 90px;
@@ -107,32 +77,6 @@
      width: 911px;
      left: 340px;
      height: 1px;
-   }
-   .menu {
-     height: fit-content;
-     background-color: #343C59;
-     border-radius: 10px;
-     color: white;
-     padding: 24px;
-     .menu_btn {
-       border: 1px solid white;
-       border-radius: 24px;
-       color: white;
-       margin-right: 4px;
-       &:hover {
-         color: #343C59;
-         background: white;
-       }
-       }
-     }
-   .price_block {
-     padding-bottom: 59px;
-     }
-   .menu_check {
-     padding-bottom: 24px;
-   }
-   .btn_filter {
-     width: 250px;
    }
 
    .main_content {
@@ -245,37 +189,6 @@
      opacity: 0.8;
      z-index: 1;
    }
- .footer-nav_border {
-   border-bottom: 1px solid #E3E0DA;
- }
- .footer-col-container {
-   padding: 24px 0;
- }
-
- .links__element {
-   .links__title {
-     font-family: Tenor Sans, serif;
-     font-style: normal;
-     font-weight: normal;
-     font-size: 24px;
-     line-height: 32px;
-     letter-spacing: 0.4px;
-
-   }
-   .links__text {
-
-     font-family: Inter, sans-serif;
-     font-style: normal;
-     font-weight: normal;
-     font-size: 14px;
-     line-height: 22px;
-     color: #5C5A55;
-     text-decoration: none;
-   }
- }
- .second__element {
-   padding-top: 40px;
- }
  .carousel-indicators_circle {
    width: 12px;
    height: 12px;
@@ -355,9 +268,37 @@
 .col_card:first-child {
   padding-top: 12px;
 }
-.pbc-12 {
+.pbc-24 {
   padding-bottom: 12px;
 }
-.ptc-12 {
-padding-top: 12px;
+.ptc-17 {
+padding-top: 16px;
+}
+.ptp-24 {
+  padding-top: 24px;
+}
+.navbar-brand {
+  padding-top: 0px;
+}
+.main__dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arial {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.004em;
+  padding-left: 97px;
+}
+.input_empty-space {
+  height: 1px;
+  position: absolute;
+  width: 30px;
+  left: 118px;
+  top: 52px;
+  background: rgba(255, 255, 255, 0.2);
 }
