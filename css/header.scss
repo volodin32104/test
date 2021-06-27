@@ -8,16 +8,20 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
+
   &:hover {
     color: #f88e61;
   }
 }
+
 .nav_call_item {
   padding-left: 38px;
 }
+
 .nav-item_telegram {
   padding-right: 28px;
 }
+
 .nav_number {
   padding-right: 38px !important;
   font-family: Tenor Sans, serif;
@@ -29,8 +33,11 @@
   color: black;
   text-decoration: none;
 }
+
 .header_item {
+  padding: 0 20px;
 }
+
 .header__logo {
   width: 172px;
   height: 48px;
